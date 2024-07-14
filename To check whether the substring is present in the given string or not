@@ -1,0 +1,3 @@
+a='i am busy now'
+if('busy' in a):
+print('yes it present')
