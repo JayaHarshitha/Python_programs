@@ -1,0 +1,8 @@
+list1=[11,5,15,14,6,7,8]
+n=len(list1)
+list1.sort()
+if n%2==0:
+median={((n//2+((n//2)+1)))//2}
+else:
+median={((n+1)//2}
+print('median is ',median)
