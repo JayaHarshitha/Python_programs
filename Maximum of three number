@@ -1,0 +1,8 @@
+def maximum (a=5,b=6,c=7):
+if((a>b) and (a>c)):
+return 'a is maximum'
+elif((b>a) and (b>c)):
+return 'b is maximum'
+else:
+return 'c is maximum'
+print(maximum)
